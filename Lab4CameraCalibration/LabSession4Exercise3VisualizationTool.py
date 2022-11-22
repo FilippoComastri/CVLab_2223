@@ -9,7 +9,7 @@
 # Use this tool to get the **coordinate** of pixels. Modify the variable *image_path* with the absolute path to an image. Run the code below and you will se a pop-up windows opening. Click on a pixel on the image and you will get the coordinate **(row,column)** of that pixel.
 
 # Define here your path
-image_path = "pen.jpg"
+image_path = 'es4/pen.jpg'
 
 
 import matplotlib.pyplot as plt
