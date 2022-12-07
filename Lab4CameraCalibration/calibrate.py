@@ -1,8 +1,6 @@
 import numpy as np
-import cv2
+import cv2 
 from matplotlib import pyplot as plt
-
-print(cv2.__version__)
 
 dirname = "calib_imgs/"
 img_names = [dirname + str(i) + ".jpg" for i in range(20)]
