@@ -48,6 +48,9 @@ cornice = np.equal(warped_white_mask,np.array([0,0,0],dtype=np.float32))
 
 # Sostituisco i punti corrispondenti alla cornice con i valori originali
 warped[cornice]=img[cornice]
+'''print('warpped: ',warped.shape)
+print('cornice: ',warped.shape)
+print('img_train',img.shape)'''
 
 plt.imshow(cv2.cvtColor(warped,cv2.COLOR_BGR2RGB))
 plt.show()
